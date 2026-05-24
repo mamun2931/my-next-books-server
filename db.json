@@ -170,17 +170,6 @@
       "image": "https://images.unsplash.com/photo-1516979187457-637abb4f9353?q=80&w=500&auto=format&fit=crop",
       "quantityLeft": 9,
       "inStock": true
-    },
-    {
-      "id": "book_016",
-      "title": "Neuromancer",
-      "author": "William Gibson",
-      "categoryId": "cat_003",
-      "categoryName": "Adventure",
-      "slug": "neuromancer",
-      "image": "https://images.unsplash.com/photo-1614850523459-c2f4c699c52e?q=80&w=500&auto=format&fit=crop",
-      "quantityLeft": 4,
-      "inStock": true
     }
   ]
 }
