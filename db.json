@@ -1,211 +1,185 @@
 {
-  "Fiction": [
+  "category": [
+    { "id": "cat_001", "name": "Fiction" },
+    { "id": "cat_002", "name": "Fantasy" },
+    { "id": "cat_003", "name": "Adventure" },
+    { "id": "cat_004", "name": "Mystery" }
+  ],
+  "books": [
     {
       "id": "book_001",
-      "title": "To Kill a Mockingbird",
-      "author": "Harper Lee",
-      "description": "The unforgettable novel of a childhood in a sleepy Southern town and the crisis of conscience that rocked it.",
-      "image": "https://images.unsplash.com/photo-1543002588-bfa74002ed7e?q=80&w=500&auto=format&fit=crop",
-      "category": "Fiction",
-      "quantityLeft": 12,
-      "inStock": true
-    },
-    {
-      "id": "book_002",
       "title": "The Great Gatsby",
       "author": "F. Scott Fitzgerald",
-      "description": "A brilliant exploration of the lavish Jazz Age and the illusions of the tragic American Dream.",
+      "categoryId": "cat_001",
+      "categoryName": "Fiction",
+      "slug": "the-great-gatsby",
       "image": "https://images.unsplash.com/photo-1544947950-fa07a98d237f?q=80&w=500&auto=format&fit=crop",
-      "category": "Fiction",
       "quantityLeft": 15,
       "inStock": true
     },
     {
-      "id": "book_003",
-      "title": "Pride and Prejudice",
-      "author": "Jane Austen",
-      "description": "The classic romantic comedy dealing with manners, societal judgments, and unexpected real attachments.",
-      "image": "https://images.unsplash.com/photo-1506880018603-83d5b814b5a6?q=80&w=500&auto=format&fit=crop",
-      "category": "Fiction",
-      "quantityLeft": 14,
-      "inStock": true
-    },
-    {
-      "id": "book_004",
-      "title": "Normal People",
-      "author": "Sally Rooney",
-      "description": "An intimate exploration of the complex, changing relationship dynamics between two high school classmates.",
-      "image": "https://images.unsplash.com/photo-1512820790803-83ca734da794?q=80&w=500&auto=format&fit=crop",
-      "category": "Fiction",
-      "quantityLeft": 13,
-      "inStock": true
-    }
-  ],
-  "Fantasy": [
-    {
-      "id": "book_005",
-      "title": "The Hobbit",
-      "author": "J.R.R. Tolkien",
-      "description": "A magnificent fantasy adventure detailing Bilbo Baggins' unexpected quest to reclaim a lost kingdom.",
+      "id": "book_002",
+      "title": "Harry Potter and the Sorcerer's Stone",
+      "author": "J.K. Rowling",
+      "categoryId": "cat_002",
+      "categoryName": "Fantasy",
+      "slug": "harry-potter-sorcerers-stone",
       "image": "https://images.unsplash.com/photo-1629992101753-56d196c8aabb?q=80&w=500&auto=format&fit=crop",
-      "category": "Fantasy",
-      "quantityLeft": 5,
-      "inStock": true
-    },
-    {
-      "id": "book_006",
-      "title": "The Name of the Wind",
-      "author": "Patrick Rothfuss",
-      "description": "The riveting autobiographical account of a notoriously gifted young wizard growing into a legend.",
-      "image": "https://images.unsplash.com/photo-1543002588-bfa74002ed7e?q=80&w=500&auto=format&fit=crop",
-      "category": "Fantasy",
-      "quantityLeft": 7,
-      "inStock": true
-    },
-    {
-      "id": "book_007",
-      "title": "The Way of Kings",
-      "author": "Brandon Sanderson",
-      "description": "An epic, sweeping world-building saga tracking fragmented soldiers enduring a harsh world of storms.",
-      "image": "https://images.unsplash.com/photo-1544947950-fa07a98d237f?q=80&w=500&auto=format&fit=crop",
-      "category": "Fantasy",
-      "quantityLeft": 2,
-      "inStock": true
-    },
-    {
-      "id": "book_008",
-      "title": "A Game of Thrones",
-      "author": "George R.R. Martin",
-      "description": "Noble houses navigate dangerous political maneuvers, betrayal, and magic to seize control of a kingdom.",
-      "image": "https://images.unsplash.com/photo-1629992101753-56d196c8aabb?q=80&w=500&auto=format&fit=crop",
-      "category": "Fantasy",
-      "quantityLeft": 8,
-      "inStock": true
-    }
-  ],
-  "Adventure": [
-    {
-      "id": "book_009",
-      "title": "Treasure Island",
-      "author": "Robert Louis Stevenson",
-      "description": "An old sailor's map triggers a thrilling high-seas journey searching for buried pirate gold.",
-      "image": "https://images.unsplash.com/photo-1512820790803-83ca734da794?q=80&w=500&auto=format&fit=crop",
-      "category": "Adventure",
-      "quantityLeft": 8,
-      "inStock": true
-    },
-    {
-      "id": "book_010",
-      "title": "Life of Pi",
-      "author": "Yann Martel",
-      "description": "An extraordinary survival story of a boy stranded on a solitary lifeboat with a Bengal tiger.",
-      "image": "https://images.unsplash.com/photo-1506880018603-83d5b814b5a6?q=80&w=500&auto=format&fit=crop",
-      "category": "Adventure",
-      "quantityLeft": 11,
-      "inStock": true
-    },
-    {
-      "id": "book_011",
-      "title": "The Call of the Wild",
-      "author": "Jack London",
-      "description": "A domesticated dog must discover his raw inner wild instincts to survive the brutal Klondike Gold Rush.",
-      "image": "https://images.unsplash.com/photo-1543002588-bfa74002ed7e?q=80&w=500&auto=format&fit=crop",
-      "category": "Adventure",
       "quantityLeft": 6,
       "inStock": true
     },
     {
-      "id": "book_012",
-      "title": "Into Thin Air",
-      "author": "Jon Krakauer",
-      "description": "A harrowing true account documenting a deadly storm system overtaking an expedition on Mt. Everest.",
-      "image": "https://images.unsplash.com/photo-1544947950-fa07a98d237f?q=80&w=500&auto=format&fit=crop",
-      "category": "Adventure",
-      "quantityLeft": 4,
+      "id": "book_003",
+      "title": "The Hobbit",
+      "author": "J.R.R. Tolkien",
+      "categoryId": "cat_002",
+      "categoryName": "Fantasy",
+      "slug": "the-hobbit",
+      "image": "https://images.unsplash.com/photo-1506880018603-83d5b814b5a6?q=80&w=500&auto=format&fit=crop",
+      "quantityLeft": 5,
       "inStock": true
-    }
-  ],
-  "Mystery": [
-    {
-      "id": "book_013",
-      "title": "Sherlock Holmes: A Study in Scarlet",
-      "author": "Arthur Conan Doyle",
-      "description": "The legendary introductory tale that brings Detective Sherlock Holmes and Dr. John Watson together.",
-      "image": "https://images.unsplash.com/photo-1589829085413-56de8ae18c73?q=80&w=500&auto=format&fit=crop",
-      "category": "Mystery",
-      "quantityLeft": 0,
-      "inStock": false
     },
     {
-      "id": "book_014",
-      "title": "Murder on the Orient Express",
-      "author": "Agatha Christie",
-      "description": "An elegant train journey comes to a sudden halt when a brutal midnight murder puzzle locks in passengers.",
+      "id": "book_004",
+      "title": "The Da Vinci Code",
+      "author": "Dan Brown",
+      "categoryId": "cat_004",
+      "categoryName": "Mystery",
+      "slug": "the-da-vinci-code",
       "image": "https://images.unsplash.com/photo-1516979187457-637abb4f9353?q=80&w=500&auto=format&fit=crop",
-      "category": "Mystery",
       "quantityLeft": 9,
       "inStock": true
     },
     {
-      "id": "book_015",
-      "title": "The Girl with the Dragon Tattoo",
-      "author": "Stieg Larsson",
-      "description": "A dark, intricate tech mystery involving a missing heiress and a brilliant, reclusive punk hacker.",
-      "image": "https://images.unsplash.com/photo-1589829085413-56de8ae18c73?q=80&w=500&auto=format&fit=crop",
-      "category": "Mystery",
-      "quantityLeft": 0,
-      "inStock": false
-    },
-    {
-      "id": "book_016",
-      "title": "Gone Girl",
-      "author": "Gillian Flynn",
-      "description": "A gripping psychological thriller examining a marriage gone wrong under the media spotlight.",
-      "image": "https://images.unsplash.com/photo-1516979187457-637abb4f9353?q=80&w=500&auto=format&fit=crop",
-      "category": "Mystery",
-      "quantityLeft": 7,
-      "inStock": true
-    }
-  ],
-  "Sci-Fi": [
-    {
-      "id": "book_017",
+      "id": "book_005",
       "title": "Dune",
       "author": "Frank Herbert",
-      "description": "Set on the desert planet Arrakis, a mystical young man navigates political betrayals over a priceless spice.",
+      "categoryId": "cat_001",
+      "categoryName": "Fiction",
+      "slug": "dune",
       "image": "https://images.unsplash.com/photo-1532012197267-da84d127e765?q=80&w=500&auto=format&fit=crop",
-      "category": "Sci-Fi",
       "quantityLeft": 3,
       "inStock": true
     },
     {
-      "id": "book_018",
+      "id": "book_006",
+      "title": "To Kill a Mockingbird",
+      "author": "Harper Lee",
+      "categoryId": "cat_001",
+      "categoryName": "Fiction",
+      "slug": "to-kill-a-mockingbird",
+      "image": "https://images.unsplash.com/photo-1543002588-bfa74002ed7e?q=80&w=500&auto=format&fit=crop",
+      "quantityLeft": 12,
+      "inStock": true
+    },
+    {
+      "id": "book_007",
+      "title": "Pride and Prejudice",
+      "author": "Jane Austen",
+      "categoryId": "cat_001",
+      "categoryName": "Fiction",
+      "slug": "pride-and-prejudice",
+      "image": "https://images.unsplash.com/photo-1544947950-fa07a98d237f?q=80&w=500&auto=format&fit=crop",
+      "quantityLeft": 14,
+      "inStock": true
+    },
+    {
+      "id": "book_008",
+      "title": "Normal People",
+      "author": "Sally Rooney",
+      "categoryId": "cat_001",
+      "categoryName": "Fiction",
+      "slug": "normal-people",
+      "image": "https://images.unsplash.com/photo-1512820790803-83ca734da794?q=80&w=500&auto=format&fit=crop",
+      "quantityLeft": 13,
+      "inStock": true
+    },
+    {
+      "id": "book_009",
+      "title": "The Name of the Wind",
+      "author": "Patrick Rothfuss",
+      "categoryId": "cat_002",
+      "categoryName": "Fantasy",
+      "slug": "the-name-of-the-wind",
+      "image": "https://images.unsplash.com/photo-1543002588-bfa74002ed7e?q=80&w=500&auto=format&fit=crop",
+      "quantityLeft": 7,
+      "inStock": true
+    },
+    {
+      "id": "book_010",
+      "title": "The Way of Kings",
+      "author": "Brandon Sanderson",
+      "categoryId": "cat_002",
+      "categoryName": "Fantasy",
+      "slug": "the-way-of-kings",
+      "image": "https://images.unsplash.com/photo-1629992101753-56d196c8aabb?q=80&w=500&auto=format&fit=crop",
+      "quantityLeft": 2,
+      "inStock": true
+    },
+    {
+      "id": "book_011",
+      "title": "Treasure Island",
+      "author": "Robert Louis Stevenson",
+      "categoryId": "cat_003",
+      "categoryName": "Adventure",
+      "slug": "treasure-island",
+      "image": "https://images.unsplash.com/photo-1512820790803-83ca734da794?q=80&w=500&auto=format&fit=crop",
+      "quantityLeft": 8,
+      "inStock": true
+    },
+    {
+      "id": "book_012",
+      "title": "Life of Pi",
+      "author": "Yann Martel",
+      "categoryId": "cat_003",
+      "categoryName": "Adventure",
+      "slug": "life-of-pi",
+      "image": "https://images.unsplash.com/photo-1506880018603-83d5b814b5a6?q=80&w=500&auto=format&fit=crop",
+      "quantityLeft": 11,
+      "inStock": true
+    },
+    {
+      "id": "book_013",
+      "title": "The Call of the Wild",
+      "author": "Jack London",
+      "categoryId": "cat_003",
+      "categoryName": "Adventure",
+      "slug": "the-call-of-the-wild",
+      "image": "https://images.unsplash.com/photo-1543002588-bfa74002ed7e?q=80&w=500&auto=format&fit=crop",
+      "quantityLeft": 6,
+      "inStock": true
+    },
+    {
+      "id": "book_014",
+      "title": "Sherlock Holmes: A Study in Scarlet",
+      "author": "Arthur Conan Doyle",
+      "categoryId": "cat_004",
+      "categoryName": "Mystery",
+      "slug": "sherlock-holmes-study-in-scarlet",
+      "image": "https://images.unsplash.com/photo-1589829085413-56de8ae18c73?q=80&w=500&auto=format&fit=crop",
+      "quantityLeft": 0,
+      "inStock": false
+    },
+    {
+      "id": "book_015",
+      "title": "Murder on the Orient Express",
+      "author": "Agatha Christie",
+      "categoryId": "cat_004",
+      "categoryName": "Mystery",
+      "slug": "murder-on-the-orient-express",
+      "image": "https://images.unsplash.com/photo-1516979187457-637abb4f9353?q=80&w=500&auto=format&fit=crop",
+      "quantityLeft": 9,
+      "inStock": true
+    },
+    {
+      "id": "book_016",
       "title": "Neuromancer",
       "author": "William Gibson",
-      "description": "The foundational cyberpunk matrix masterpiece about a washed-up computer hacker hired for a final run.",
+      "categoryId": "cat_003",
+      "categoryName": "Adventure",
+      "slug": "neuromancer",
       "image": "https://images.unsplash.com/photo-1614850523459-c2f4c699c52e?q=80&w=500&auto=format&fit=crop",
-      "category": "Sci-Fi",
       "quantityLeft": 4,
-      "inStock": true
-    },
-    {
-      "id": "book_019",
-      "title": "Project Hail Mary",
-      "author": "Andy Weir",
-      "description": "A solitary astronaut awakens from a coma to solve an interstellar threat threatening Earth's survival.",
-      "image": "https://images.unsplash.com/photo-1532012197267-da84d127e765?q=80&w=500&auto=format&fit=crop",
-      "category": "Sci-Fi",
-      "quantityLeft": 10,
-      "inStock": true
-    },
-    {
-      "id": "book_020",
-      "title": "The Martian",
-      "author": "Andy Weir",
-      "description": "Stranded on Mars, a resourceful engineer must use basic science and sheer grit to message rescue crews.",
-      "image": "https://images.unsplash.com/photo-1614850523459-c2f4c699c52e?q=80&w=500&auto=format&fit=crop",
-      "category": "Sci-Fi",
-      "quantityLeft": 5,
       "inStock": true
     }
   ]
